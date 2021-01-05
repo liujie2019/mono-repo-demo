@@ -1,5 +1,8 @@
 //  packages/common/components/WaterForm.js
 import { Form, Input, Button } from 'antd';
+import 'antd/dist/antd.css';
+import './water-form.css';
+
 const layout = {
   labelCol: {
     span: 8,
@@ -27,6 +30,7 @@ const WaterForm = () => {
   return (
     <Form
       {...layout}
+      className='form-wrapper'
       name='basic'
       initialValues={{
         remember: true,
