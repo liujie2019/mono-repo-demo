@@ -53,7 +53,7 @@ const WaterForm = () => {
 
       <Form.Item {...tailLayout}>
         <Button type='primary' htmlType='submit'>
-          查询
+          查询操作
         </Button>
       </Form.Item>
     </Form>
